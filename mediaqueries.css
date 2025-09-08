@@ -1,0 +1,221 @@
+@media screen and (max-width: 767px) {
+  #star-pattern {
+    background-size: 40%;
+    animation: pan 30s linear infinite;
+    height: 120%;
+  }
+
+  /* Navbar */
+  .container-nav {
+    padding: 10px 15px;
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+  }
+
+  .logo img {
+    height: 60px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+
+  nav ul li {
+    margin-left: 15px;
+    margin-bottom: 1em;
+  }
+
+  nav ul li:first-child {
+    margin-left: 0;
+  }
+
+  /* Hero */
+  .hero-section {
+    align-items: center;
+    justify-content: center;
+    border-radius: 0px 0px 0px 350px;
+  }
+
+  .container-hero {
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+    gap: 0;
+  }
+
+  .hero-text {
+    margin-right: 0;
+    text-align: center;
+  }
+
+  .hero-text h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+  }
+
+  .hero-text p {
+    font-size: 1.1em;
+    margin-bottom: 20px;
+  }
+
+  .hero-image img {
+    max-width: 100%;
+    border-radius: 0;
+  }
+
+  /* Coleções */
+  .container-coleções {
+    margin: 5%;
+  }
+  .container-coleções h1 {
+    font-size: 1.5em;
+    margin-top: 5vh;
+    margin-bottom: 0;
+  }
+
+  .container-coleções p {
+    margin: 15px 5%;
+    margin-bottom: 5vh;
+  }
+
+  .container-itens-coleções {
+    margin: 0 0%;
+    gap: 5%;
+  }
+
+  .item img {
+    max-height: 200px;
+    min-height: 200px;
+    min-width: 150px;
+    max-width: 150px;
+  }
+
+  .item {
+    margin-bottom: 3em;
+  }
+
+  .caixa {
+    bottom: -20px;
+    right: -1px;
+    width: 100px;
+    height: 40px;
+    font-size: 13px;
+  }
+
+  /* Sobre */
+  .background-sobre {
+    flex-direction: column;
+    align-items: center;
+    padding: 3em;
+  }
+
+  .imagem-sobre img {
+    margin-left: 0;
+  }
+
+  .container-texto-sobre {
+    align-items: left;
+    text-align: center;
+    margin-top: 5vh;
+    margin-bottom: 10vh;
+  }
+
+  .container-texto-sobre h4 {
+    font-size: 1.5em;
+    margin: 0 auto;
+  }
+
+  .container-texto-sobre h1 {
+    font-size: 1.8em;
+  }
+
+  /* FAQ */
+  .container-geral-perguntas {
+    margin: 10vh 5%;
+  }
+
+  .headline-faq {
+    margin-top: 5vh;
+    margin: 0 6%;
+    margin-bottom: 10px;
+  }
+
+  .headline-faq h1 {
+    font-size: 1.5em;
+  }
+
+  .headline-faq p {
+    font-size: 1em;
+    margin: 0 2%;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .container-questoes {
+    margin: 1.5em 5%;
+  }
+
+  .pergunta {
+    width: 90%;
+  }
+
+  .pergunta-titulo h2 {
+    font-size: 1.2em;
+  }
+
+  .pergunta-resposta {
+    font-size: 0.9em;
+  }
+
+  .mais-perguntas {
+    text-align: left;
+    margin: 0 8%;
+    margin-bottom: 5vh;
+  }
+
+  .mais-perguntas h4 {
+    font-size: 1.3em;
+  }
+
+  .mais-perguntas button {
+    width: 100%;
+    font-size: 1em;
+    margin-top: 1em;
+  }
+
+  /* Contatos */
+  .container-geral-contatos {
+    background-image: linear-gradient(315deg, #e899dc 0%, #d387ab 74%);
+    border-radius: 0px 200px 0px 0px;
+    padding: 20px;
+  }
+
+  .headline-contatos {
+    color: white;
+    margin-top: 15vh;
+  }
+
+  .itens-contatos {
+    display: flex;
+    width: 100%;
+  }
+
+  .contato {
+    height: 9em;
+    width: 9em;
+  }
+
+  .usuario {
+    font-size: 0.8em;
+  }
+
+  /* Footer  */
+  .container {
+    width: 90%;
+  }
+
+  .footer-list li {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 10px;
+  }
+}
