@@ -36,3 +36,6 @@
 
 ---
 
+<p align="center">
+  <a href="https://caiorossi00.github.io/Tropicana-PEX/" target="_blank">Acesse o projeto aqui</a>
+</p>
