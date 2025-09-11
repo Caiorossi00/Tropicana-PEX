@@ -1,7 +1,7 @@
 <h1 align="center">Tropicana Laços</h1>
 
 <p align="center">
-  <img src="https://github.com/Caiorossi00/Tropicana-PEX/blob/main/Tropicana-UI.png?raw=true" alt="Preview do Site" width="800px">
+  <img src="https://github.com/Caiorossi00/Tropicana-PEX/blob/main/UI/Tropicana-UI.png?raw=true" alt="Preview do Site" width="800px">
 </p>
 
 <p align="center">
